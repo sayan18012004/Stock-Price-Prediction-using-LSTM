@@ -18,7 +18,7 @@ This project aims to predict stock prices using Long Short-Term Memory (LSTM) ne
 Stock price prediction is a crucial task in the financial market, enabling investors to make informed decisions. This project utilizes an LSTM model to analyze historical stock price data and predict future prices. LSTMs are advantageous due to their ability to capture long-term dependencies in time-series data.
 
 ## Dataset
-The dataset used for training the model consists of historical stock price data. The data includes features such as:
+The dataset used for training is fetched using Yahoo Finance API and the model consists of historical stock price data. The data includes features such as:
 - Date
 - Open price
 - High price
